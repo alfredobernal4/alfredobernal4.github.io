@@ -21,8 +21,8 @@ p { margin: 0; }
   --bg-alt: #f1e9d6;
   --text: #0a0a0c;
   --text-muted: #53565f;
-  --accent: #0066ff;
-  --accent-soft: #d6e6ff;
+  --accent: #c1502e;
+  --accent-soft: #f3ddd0;
   --border: #e5dcc4;
   --card-bg: #fffdf6;
   --shadow: 0 1px 2px rgba(10,10,12,0.04), 0 8px 24px rgba(10,10,12,0.06);
@@ -35,8 +35,8 @@ p { margin: 0; }
     --bg-alt: #131318;
     --text: #f5f6fa;
     --text-muted: #9a9da6;
-    --accent: #4d94ff;
-    --accent-soft: #102848;
+    --accent: #e0805a;
+    --accent-soft: #3a2418;
     --border: #26272e;
     --card-bg: #141419;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.4);
@@ -47,8 +47,8 @@ p { margin: 0; }
   --bg-alt: #131318;
   --text: #f5f6fa;
   --text-muted: #9a9da6;
-  --accent: #4d94ff;
-  --accent-soft: #102848;
+  --accent: #e0805a;
+  --accent-soft: #3a2418;
   --border: #26272e;
   --card-bg: #141419;
   --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.4);
@@ -383,11 +383,18 @@ p { margin: 0; }
   font-size: 13px;
   border-bottom: 1px solid var(--border);
 }
-.project-wordmark {
-  font-family: 'Fraunces', serif;
-  font-size: clamp(24px, 4vw, 32px);
-  font-weight: 600;
-  color: var(--accent);
+.project-logo {
+  height: 34px;
+  width: auto;
+  max-width: 65%;
+  color: var(--text);
+}
+.project-logo-lago,
+.project-logo-oncrawl {
+  height: 26px;
+}
+.project-logo-samboat {
+  height: 30px;
 }
 .project-body { padding: 22px; }
 .project-body h3 {
