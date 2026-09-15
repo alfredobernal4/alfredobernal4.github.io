@@ -17,14 +17,14 @@ p { margin: 0; }
 
 /* ---------- Theme tokens ---------- */
 :root {
-  --bg: #ffffff;
-  --bg-alt: #f5f6fa;
+  --bg: #faf6ec;
+  --bg-alt: #f1e9d6;
   --text: #0a0a0c;
   --text-muted: #53565f;
   --accent: #0066ff;
   --accent-soft: #d6e6ff;
-  --border: #e2e4ea;
-  --card-bg: #ffffff;
+  --border: #e5dcc4;
+  --card-bg: #fffdf6;
   --shadow: 0 1px 2px rgba(10,10,12,0.04), 0 8px 24px rgba(10,10,12,0.06);
   --max-width: 1080px;
 }
