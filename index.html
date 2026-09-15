@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Your Name — role/tagline. Portfolio, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">Your Name</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-photo" aria-hidden="true">
+          <span>Photo</span>
+        </div>
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Your Name</h1>
+        <p class="tagline">Product designer &amp; frontend engineer crafting simple, human interfaces.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-inner">
+        <p class="section-label">01 — About</p>
+        <h2 class="section-title">A little about me</h2>
+        <p class="about-bio">
+          I'm a designer and engineer with a handful of years building products people actually enjoy using.
+          I care about clarity over cleverness, and I like projects that sit at the intersection of
+          good design and solid engineering. When I'm not shipping, I'm probably reading, hiking, or
+          tinkering with a side project that will never see daylight.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+      <div class="section-inner">
+        <p class="section-label">02 — Experience</p>
+        <h2 class="section-title">Where I've worked</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-head">
+                <h3>Senior Product Designer</h3>
+                <span class="timeline-date">2023 — Present</span>
+              </div>
+              <p class="timeline-org">Company Name</p>
+              <p class="timeline-desc">Leading design for core product surfaces, partnering closely with engineering to ship end-to-end experiences.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-head">
+                <h3>Product Designer</h3>
+                <span class="timeline-date">2021 — 2023</span>
+              </div>
+              <p class="timeline-org">Previous Company</p>
+              <p class="timeline-desc">Owned the design system and onboarding flows, improving activation rate by 18%.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-head">
+                <h3>Junior Designer</h3>
+                <span class="timeline-date">2019 — 2021</span>
+              </div>
+              <p class="timeline-org">First Company</p>
+              <p class="timeline-desc">Worked across marketing and product design, learning the fundamentals from a great team.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO / WORK -->
+    <section id="work" class="section">
+      <div class="section-inner">
+        <p class="section-label">03 — Work</p>
+        <h2 class="section-title">Selected projects</h2>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-image" aria-hidden="true"><span>Project image</span></div>
+            <div class="project-body">
+              <h3>Project One</h3>
+              <p>A short description of what this project is, the problem it solved, and your role in it.</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                View project
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image" aria-hidden="true"><span>Project image</span></div>
+            <div class="project-body">
+              <h3>Project Two</h3>
+              <p>A short description of what this project is, the problem it solved, and your role in it.</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                View project
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image" aria-hidden="true"><span>Project image</span></div>
+            <div class="project-body">
+              <h3>Project Three</h3>
+              <p>A short description of what this project is, the problem it solved, and your role in it.</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                View project
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image" aria-hidden="true"><span>Project image</span></div>
+            <div class="project-body">
+              <h3>Project Four</h3>
+              <p>A short description of what this project is, the problem it solved, and your role in it.</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                View project
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="section-inner section-inner-narrow">
+        <p class="section-label">04 — Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="contact-copy">
+          I'm always open to interesting projects and conversations. The fastest way to reach me is email.
+        </p>
+
+        <a href="mailto:you@example.com" class="contact-email">you@example.com</a>
+
+        <div class="social-row">
+          <a href="https://linkedin.com/in/yourname" class="social-btn" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://x.com/yourname" class="social-btn" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.9L4.5 22H1.4l8.1-9.3L1 2h7.1l4.9 6.3L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg>
+          </a>
+          <a href="https://github.com/yourname" class="social-btn" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.49 2.87 8.3 6.84 9.64.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.61-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.55 2.36 1.11 2.94.85.09-.66.35-1.11.64-1.37-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.92-2.35 4.79-4.58 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+          <a href="mailto:you@example.com" class="social-btn" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name. Built with plain HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
