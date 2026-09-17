@@ -22,7 +22,7 @@
 
   // Scroll-reveal for sections and cards
   var revealTargets = document.querySelectorAll(
-    '.section-label, .section-title, .about-bio, .skill-tags, .timeline-item, .earlier-experience, .project-card, .contact-copy, .contact-email, .social-row'
+    '.about-body p, .pills, .lineup-row, .earlier, .work-card, .contact-copy, .contact-email, .social-row'
   );
   revealTargets.forEach(function (el) { el.classList.add('reveal'); });
 
