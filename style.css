@@ -236,6 +236,7 @@ p { margin: 0; }
 .work-bottom { background: var(--paper); padding: 22px 24px; border-top: 3px solid var(--ink); }
 .work-bottom h3 { font-size: 19px; font-weight: 600; margin-bottom: 8px; }
 .work-bottom p { font-size: 14.5px; line-height: 1.5; margin: 0 0 14px; opacity: 0.8; }
+.work-links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .work-link { font-weight: 700; font-size: 13.5px; text-decoration: underline; text-underline-offset: 3px; }
 .wc-yellow .work-top { background: var(--yellow); }
 .wc-coral .work-top { background: var(--coral); color: var(--paper); }
